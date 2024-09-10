@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <title>Document</title>
+</head>
+<body>
+    <!-- Header part -->
+        <div class="container-fluid header"  data-aos="flip-left">
+        <div class="row">
+            <div class="col-md-3 logo">
+               <div><img src="https://play-lh.googleusercontent.com/0DCRLI8xP7ITTHCeju3PR-UUPuQw9Bt9DvDr4yqsH1J_sADoeZw9b3mH0O9Fpp9sxsS3" alt="" style="width: 50%; height:50%;margin: 0;padding: 0;">    
+               </div>
+            </div>
+            <div class="col-md-6">
+                <div><input type="text" placeholder="Search in daraz" style="position: absolute;margin-right: 10px;">          
+                </div>
+                <div style="margin-right: 40px;"><i class="fa-solid fa-magnifying-glass" style="float: right;position: relative;margin-right: 110px;margin-top: 10px"></i>
+                </div>
+            </div>
+                <div class="col-md-3">
+                    <ul>
+                       <div><i class="fa-regular fa-user" style="color: white;"></i></div>
+                        <li><a href="">login</a></li>
+                        <li><a href="">|</a></li>
+                        <li><a href="">signup</a></li>
+                        <li><a href=""><select name="" id="" style="background-color: brown;color: aliceblue;"><option value="urdu">Urdu</option>
+                        <option value="english">English</option></select></a></li>
+                    </ul>
+            </div>
+    </div>
+    </div>
+</div>
+<!-- content part -->
+   <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"><img src="data:image/jpeg;base64,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" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:112,000</div></div>
+        <div class="col-md-3" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"><img src="https://static-01.daraz.pk/p/d59573337a3ed0c81b551e016d89e5aa.jpg_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:115,000</div></div>
+        <div class="col-md-3" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"><img src="https://static-01.daraz.pk/p/87357b84f1e055452884e0b4a2474a87.jpg_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:123,500</div></div>
+        <div class="col-md-3" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"><img src="https://static-01.daraz.pk/p/60b11b29bb1f04f9ce1a515cb5f74ad0.jpg_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:109,500</div></div>
+        
+    </div>
+    <div class="row">
+        <div class="col-md-3" data-aos="fade-dow"
+        data-aos-easing="linear"
+        data-aos-duration="1500"><img src="https://static-01.daraz.pk/p/36c2b3489e7dda8584a341061f8a7261.jpg_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:113,000</div></div>
+        <div class="col-md-3" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"><img src="https://static-01.daraz.pk/p/f5c9ef4d83b794a455f3a124a38770e6.jpg_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:109,500</div></div>
+        <div class="col-md-3" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"><img src="https://static-01.daraz.pk/p/7997f8030de847c825dad034b84b0222.jpg_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:111,000</div></div>
+        <div class="col-md-3" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"><img src="https://static-01.daraz.pk/p/cd16c0ad39f283438638c2f81c249b60.jpg_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:117,000</div></div>
+    </div>
+    <div class="row">
+        <div class="col-md-3" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"><img src="https://static-01.daraz.pk/p/facc3a4c081293450d74c7729daac826.jpg_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:123,000</div></div>
+        <div class="col-md-3" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"><img src="https://static-01.daraz.pk/p/7e9eb6955192b76203d8de15aa95ec90.jpg_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:118,000</div></div>
+        <div class="col-md-3" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"><img src="https://static-01.daraz.pk/p/7a03f5b2158b9397c2acb3b207358b22.png_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:234,900</div></div>
+        <div class="col-md-3" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"><img src="https://static-01.daraz.pk/p/3d7475e51a82461e2e74af3c167f383f.jpg_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:134,500</div></div>
+    </div>
+    <div class="row">
+        <div class="col-md-3"  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"><img src="https://static-01.daraz.pk/p/66970eff55128055b997a09fcb95d2a6.jpg_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:124,500</div></div>
+        <div class="col-md-3"  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"><img src="https://static-01.daraz.pk/p/dc6bc2493ccc3422a170c18970ab7c17.jpg_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:115,000</div></div>
+        <div class="col-md-3"  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"><img src="https://static-01.daraz.pk/p/4e8c0c4676bcc480cd0f16b377b0a3db.jpg_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:159,000</div></div>
+        <div class="col-md-3"  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"><img src="https://static-01.daraz.pk/p/73e2db7c71f099cd654d822299bbfb94.jpg_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:129,000</div></div>
+    </div>
+    <div class="row">
+        <div class="col-md-3" data-aos="flip-left"><img src="https://static-01.daraz.pk/p/b134a6ab2cdaee1e0072ff4d9699264a.jpg_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:164,500</div></div>
+        <div class="col-md-3" data-aos="flip-left"><img src="https://static-01.daraz.pk/p/999650368f49a7311950850655fe3c97.jpg_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:117,000</div></div>
+        <div class="col-md-3" data-aos="flip-left"><img src="https://static-01.daraz.pk/p/cd16c0ad39f283438638c2f81c249b60.jpg_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:131,000</div></div>
+        <div class="col-md-3" data-aos="flip-left"><img src="https://static-01.daraz.pk/p/dc6bc2493ccc3422a170c18970ab7c17.jpg_300x0q75.webp" alt="" width="100%" height="80%" style="border:2px chocolate solid;border-radius: 10px;margin-top: 50px;"><div style="text-align: center;background-color: chocolate;border-radius:10px;padding: 15px;color: white;">Rs:115,000</div></div>
+    </div>
+   </div> 
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>

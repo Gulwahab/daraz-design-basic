@@ -1,0 +1,57 @@
+.header{
+    background-color: #c0392b;
+    width: 100%;
+    padding-top:20px;
+    
+ }
+input{
+    width: 40%;
+    height: 35px;
+    float: right;
+    border-radius: 10px;
+    border: none;
+}
+ul{
+list-style: none;
+float: right;
+display: flex;
+gap: 30px;
+}
+li a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: azure;
+}
+.bainer{
+    background-image: url(https://icms-image.slatic.net/images/ims-web/bdc89f61-1c9f-4dd5-ae08-709ddc6a5273.jpg);background-size: cover;
+    width: 100%;
+    height: 80vh;
+    animation-name:change;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;}
+
+    @keyframes change{
+        0%{background:url(https://icms-image.slatic.net/images/ims-web/bdc89f61-1c9f-4dd5-ae08-709ddc6a5273.jpg);background-size: cover;}
+         15%{background:url(https://icms-image.slatic.net/images/ims-web/2eace85e-eee3-486b-967b-1da3916e9fc2.jpg);background-size: cover;}
+         30%{background:url(https://icms-image.slatic.net/images/ims-web/93342930-1a50-494a-99ee-8e88f7026612.jpg);background-size: cover;}
+         45%{background:url(https://icms-image.slatic.net/images/ims-web/d296988b-812a-4122-b89e-bf7854bb54bd.jpg);background-size: cover;}
+        60%{background:url(https://icms-image.slatic.net/images/ims-web/9dfd20e0-4ec1-4a08-b24e-ecfede582f9a.jpg);background-size: cover;}
+        75%{background:url(https://icms-image.slatic.net/images/ims-web/9ec7a5d6-b55f-4092-930a-de62dd1e5510.jpg);background-size: cover;}
+        90%{background:url(https://icms-image.slatic.net/images/ims-web/83b249a1-593f-4173-9e9d-7163b0079cf9.jpg);background-size: cover;}
+        100%{background:url(https://icms-image.slatic.net/images/ims-web/c0ff515d-ea59-4437-8dfc-6113933e6ead.jpg);background-size: cover;}
+        }
+    
+
+.container{
+    margin-top: 10px;
+}
+.cards{
+    margin-top: 100px;
+}
+
+/* mobile file */
+.mobil{
+    text-align: center;
+}
